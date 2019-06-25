@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "157a9e816aacecd566c87c381a72bfa5",
+    "revision": "d18490a441a5baa1d42c68cea941f062",
     "url": "/NGO-Project/index.html"
   },
   {
-    "revision": "fbba7fe12abc8c30ee23",
+    "revision": "66126fffc6a85e38e4ec",
     "url": "/NGO-Project/static/css/main.6a42b512.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NGO-Project/static/js/2.a15fdae9.chunk.js"
   },
   {
-    "revision": "fbba7fe12abc8c30ee23",
-    "url": "/NGO-Project/static/js/main.ed31bc65.chunk.js"
+    "revision": "66126fffc6a85e38e4ec",
+    "url": "/NGO-Project/static/js/main.0d6b53ee.chunk.js"
   },
   {
     "revision": "7ecab4901b6ef0345133",
