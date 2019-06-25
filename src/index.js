@@ -10,7 +10,7 @@ import Contact from './containers/Contact/Contact';
 import * as serviceWorker from './serviceWorker';
 
 const app = (
-    <Router>
+    <Router basename='/NGO-Project'>
         <div>
             <Route exact path="/" component = {Home} />
             <Route exact path="/about" component = {About} />
