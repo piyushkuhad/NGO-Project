@@ -1,10 +1,99 @@
+html,
+body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: overpass,Arial,sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: gray;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*=======================Global Styles===========================*/
+
+::-moz-selection {
+  color: #fff;
+  background: #39f;
+  text-shadow: none
+}
+
+::selection {
+  color: #fff;
+  background: #39f;
+  text-shadow: none
+}
+
+hr {
+	color: #ccc;
+	background-color: #ccc;
+	height: 1px;
+	border: 0
+}
+
+strong {
+  font-weight: bold;
+}
+
+.page-center {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row-fluid:after,
+.row-fluid:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h1, h2, h3, h4,h5, h6 {
+  line-height: 1.4;
+  color: #000;
+  font-family: dosis,Arial,sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+h6 {
+  font-size: 25px;
 }
 
 code {

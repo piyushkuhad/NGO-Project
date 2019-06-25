@@ -1,0 +1,108 @@
+.cm-gallery-container {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.cm-gallery-container > a {
+    width: 25%;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    cursor: pointer;
+}
+
+.cm-gallery-container > a:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: rgba(0,0,0,.4);
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.cm-gallery-container > a:hover:after {
+    background: transparent;
+}
+
+.cm-gallery-container .cm-icon-cont {
+    width: 70px;
+    height: 70px;
+    background: rgba(255,255,255,.8);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f86f2d;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.cm-gallery-container > a:hover .cm-icon-cont {
+    opacity: 1;
+}
+
+.cm-gallery-container .cm-icon-cont img {
+    width: 36px;
+    height: 36px;
+}
+
+.cm-video-container button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.cm-video-container button:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(248, 111, 45,0.6);
+    z-index: 1;
+    transition: all 300ms ease;
+}
+
+.cm-video-container span {
+    position: relative;
+    z-index: 2;
+    transition: all 300ms ease;
+}
+
+.cm-video-container i {
+    padding-right: 10px;
+    font-size: 23px;
+}
+
+.cm-video-container button:hover span {
+    color: #fff;
+}
+
+.cm-video-container button:hover:after {
+    width: 100%;
+}

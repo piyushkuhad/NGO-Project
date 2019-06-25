@@ -1,0 +1,41 @@
+.cm-hero-cont {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cm-hero-cont h1 {
+    margin: 0 0 30px;
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.cm-hero-cont .page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.cm-hero-cont.overlay {
+    position: relative;
+}
+
+.cm-hero-cont.overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.cm-hero-cont.overlay .page-center {
+    position: relative;
+    z-index: 11;
+}
